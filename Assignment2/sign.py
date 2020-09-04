@@ -24,7 +24,7 @@ privatekey = f.read()
 privatekey = importKey(privatekey)
 
 message = input("Enter the text to be signed  - ")
-output_to = input("Enter the name of file to which the output is to written - ")
+output_to = input("Enter the relative path to file to which the output is to written - ")
 signature = b64encode(sign(message, privatekey))
 
 f = open(output_to , "w")
