@@ -4,7 +4,7 @@
 
 We have to convert data to bytes and sore them in <hash>.dat file (hash is the SHA-256 hash of input to the file)
 
-#####Input Format: 
+##### Input Format: 
 
 ```
 Enter number of inputs: <int>
